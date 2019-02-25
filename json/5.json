@@ -1,0 +1,706 @@
+{
+  "title": "两张图测试",
+  "context": [
+    {
+      "id": 231,
+      "user": 5,
+      "seq": 0,
+      "create_time": "2019-02-22T15:06:48.974222",
+      "content": "",
+      "type": "image",
+      "background": "https://imglive.ehafo.com/course/temp/2019/02/c4c1BlZ8oQnb6AXtP0bNX9Icclwa0O5gQ5oAQzrU.PNG",
+      "status": 1,
+      "article": 62,
+      "canvasWidth": 375,
+      "canvasHeight": 669.8960302457467,
+      "lines": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "x": 262,
+            "y": 1056,
+            "time": 1550827742542,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 246,
+            "y": 1040,
+            "time": 1550827742558,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 244,
+            "y": 1036,
+            "time": 1550827742569,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 242,
+            "y": 1034,
+            "time": 1550827742576,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 240,
+            "y": 1030,
+            "time": 1550827742592,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 236,
+            "y": 1026,
+            "time": 1550827742609,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 232,
+            "y": 1024,
+            "time": 1550827742626,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 230,
+            "y": 1020,
+            "time": 1550827742642,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 226,
+            "y": 1014,
+            "time": 1550827742659,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 224,
+            "y": 1010,
+            "time": 1550827742676,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 220,
+            "y": 1006,
+            "time": 1550827742693,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 218,
+            "y": 1004,
+            "time": 1550827742709,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 216,
+            "y": 1000,
+            "time": 1550827742726,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 214,
+            "y": 998,
+            "time": 1550827742743,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 210,
+            "y": 994,
+            "time": 1550827742760,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 208,
+            "y": 992,
+            "time": 1550827742776,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 204,
+            "y": 988,
+            "time": 1550827742793,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 202,
+            "y": 986,
+            "time": 1550827742810,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 200,
+            "y": 984,
+            "time": 1550827742826,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 200,
+            "y": 982,
+            "time": 1550827742843,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 198,
+            "y": 982,
+            "time": 1550827742860,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 196,
+            "y": 980,
+            "time": 1550827742877,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 194,
+            "y": 978,
+            "time": 1550827742893,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 192,
+            "y": 976,
+            "time": 1550827742910,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 190,
+            "y": 976,
+            "time": 1550827742927,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 186,
+            "y": 974,
+            "time": 1550827742943,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 184,
+            "y": 970,
+            "time": 1550827742960,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 182,
+            "y": 968,
+            "time": 1550827742977,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 180,
+            "y": 968,
+            "time": 1550827742993,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 178,
+            "y": 966,
+            "time": 1550827743010,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 176,
+            "y": 964,
+            "time": 1550827743027,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 172,
+            "y": 962,
+            "time": 1550827743043,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 168,
+            "y": 960,
+            "time": 1550827743060,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 166,
+            "y": 956,
+            "time": 1550827743077,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 164,
+            "y": 954,
+            "time": 1550827743093,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 162,
+            "y": 952,
+            "time": 1550827743110,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 160,
+            "y": 952,
+            "time": 1550827743127,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 158,
+            "y": 950,
+            "time": 1550827743143,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 154,
+            "y": 948,
+            "time": 1550827743160,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 152,
+            "y": 946,
+            "time": 1550827743177,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 152,
+            "y": 944,
+            "time": 1550827743193,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 150,
+            "y": 944,
+            "time": 1550827743210,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 146,
+            "y": 942,
+            "time": 1550827743227,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 144,
+            "y": 940,
+            "time": 1550827743243,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 142,
+            "y": 938,
+            "time": 1550827743260,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 140,
+            "y": 936,
+            "time": 1550827743277,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 138,
+            "y": 936,
+            "time": 1550827743293,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 136,
+            "y": 936,
+            "time": 1550827743310,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 132,
+            "y": 934,
+            "time": 1550827743327,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 130,
+            "y": 932,
+            "time": 1550827743343,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 128,
+            "y": 930,
+            "time": 1550827743360,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 126,
+            "y": 928,
+            "time": 1550827743376,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 122,
+            "y": 926,
+            "time": 1550827743394,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 120,
+            "y": 926,
+            "time": 1550827743410,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 118,
+            "y": 924,
+            "time": 1550827743426,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 116,
+            "y": 922,
+            "time": 1550827743443,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 114,
+            "y": 922,
+            "time": 1550827743460,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 112,
+            "y": 922,
+            "time": 1550827743476,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 110,
+            "y": 920,
+            "time": 1550827743493,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 106,
+            "y": 916,
+            "time": 1550827743510,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 102,
+            "y": 914,
+            "time": 1550827743527,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 98,
+            "y": 910,
+            "time": 1550827743544,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 94,
+            "y": 908,
+            "time": 1550827743560,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 90,
+            "y": 906,
+            "time": 1550827743577,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 88,
+            "y": 904,
+            "time": 1550827743593,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 86,
+            "y": 904,
+            "time": 1550827743610,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 82,
+            "y": 902,
+            "time": 1550827743627,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 80,
+            "y": 900,
+            "time": 1550827743643,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 78,
+            "y": 898,
+            "time": 1550827743677,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 76,
+            "y": 896,
+            "time": 1550827743701,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 74,
+            "y": 896,
+            "time": 1550827743711,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 72,
+            "y": 896,
+            "time": 1550827743727,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 70,
+            "y": 894,
+            "time": 1550827743743,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 68,
+            "y": 894,
+            "time": 1550827743760,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 66,
+            "y": 892,
+            "time": 1550827743776,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 64,
+            "y": 892,
+            "time": 1550827743794,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 60,
+            "y": 890,
+            "time": 1550827743810,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 58,
+            "y": 888,
+            "time": 1550827743826,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 56,
+            "y": 888,
+            "time": 1550827743844,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 56,
+            "y": 886,
+            "time": 1550827743860,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 54,
+            "y": 886,
+            "time": 1550827743877,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 50,
+            "y": 886,
+            "time": 1550827743894,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 48,
+            "y": 884,
+            "time": 1550827743910,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 44,
+            "y": 882,
+            "time": 1550827743927,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 40,
+            "y": 880,
+            "time": 1550827743944,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 36,
+            "y": 880,
+            "time": 1550827743960,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 34,
+            "y": 878,
+            "time": 1550827743977,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 32,
+            "y": 876,
+            "time": 1550827743994,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 30,
+            "y": 876,
+            "time": 1550827744010,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 28,
+            "y": 876,
+            "time": 1550827744027,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 24,
+            "y": 876,
+            "time": 1550827744044,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 22,
+            "y": 874,
+            "time": 1550827744060,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          },
+          {
+            "x": 18,
+            "y": 872,
+            "time": 1550827744077,
+            "panColor": "#F43535",
+            "lineWidth": 6
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "start_time": 1550827739755,
+      "scaleCanvas": 2
+    },
+    {
+      "id": 232,
+      "user": 5,
+      "seq": 1,
+      "create_time": "2019-02-22T15:06:53.445355",
+      "content": "",
+      "type": "image",
+      "background": "https://imglive.ehafo.com/course/temp/2019/02/m142ML60280353bOXvbYGFsYlGcZ9dwG0aguUlXi.PNG",
+      "status": 1,
+      "article": 62
+    }
+  ],
+  "record_start_time": 1550827687547,
+  "audio": "https://imglive.ehafo.com/course/temp/2019/02/NosVJ60QCIs0b8PVHMPomZJsrFU2b8eRnuiZp9yz.aac"
+}
