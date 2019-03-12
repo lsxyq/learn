@@ -1,139 +1,134 @@
 #!/usr/bin/env python
 # -*- coding:UTF-8 -*-
 # Author:Leslie-x
-import os
-from PIL import Image
+import json
+import pydash
+f=open('1.json','r',encoding='utf8')
+data = json.loads(f.read())
 
 
-def image_resize(img, size=(1500, 1100)):
-    """调整图片大小
-    """
-    try:
-        if img.mode not in ('L', 'RGB'):
-            img = img.convert('RGB')
-        img = img.resize(size)
-    except Exception as e:
-        pass
-    return img
 
 
-def image_merge(images, output_dir='output', output_name='merge.jpg', \
-                restriction_max_width=None, restriction_max_height=None):
-    """垂直合并多张图片
-    images - 要合并的图片路径列表
-    ouput_dir - 输出路径
-    output_name - 输出文件名
-    restriction_max_width - 限制合并后的图片最大宽度，如果超过将等比缩小
-    restriction_max_height - 限制合并后的图片最大高度，如果超过将等比缩小
-    """
-    max_width = 0
-    total_height = 0
-    # 计算合成后图片的宽度（以最宽的为准）和高度
-    for img in images:
-        width, height = img.size
-        if width > max_width:
-            max_width = width
-        total_height += height
-
-        # 产生一张空白图
-    new_img = Image.new('RGB', (max_width, total_height), 255)
-    # 合并
-    x = y = 0
-    for img_path in images:
-        if os.path.exists(img_path):
-            img = Image.open(img_path)
-            width, height = img.size
-            new_img.paste(img, (x, y))
-            y += height
-
-    if restriction_max_width and max_width >= restriction_max_width:
-        # 如果宽带超过限制
-        # 等比例缩小
-        ratio = restriction_max_height / float(max_width)
-        max_width = restriction_max_width
-        total_height = int(total_height * ratio)
-        new_img = image_resize(new_img, size=(max_width, total_height))
-
-    if restriction_max_height and total_height >= restriction_max_height:
-        # 如果高度超过限制
-        # 等比例缩小
-        ratio = restriction_max_height / float(total_height)
-        max_width = int(max_width * ratio)
-        total_height = restriction_max_height
-        new_img = image_resize(new_img, size=(max_width, total_height))
-
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    save_path = '%s/%s' % (output_dir, output_name)
-    new_img.save(save_path)
-    return save_path
 
 
-if __name__ == '__main__':
-    image_merge(images=['temp/1.png', 'temp/2.png', 'temp/3.png'])
+from pydash.arrays import *
+
+# l1=['apple','banana','pear']
+other = (['add','pdsad','pdasd'])
+# s=lambda a,b:a[0]==b[0]
+
+# res=difference_with(l1,other,comparator=s)
+# print(res)
+
+# res=drop(l1,2)
+# print(res)
 
 
-class EditPhoto():
-    def __init__(self):
-        self.im_list = []
-        self.output_dir = 'output'
-        self.output_name = 'merge.jpg'
-        self.save_path = 'temp/merge.png'
+# res=drop_right(l1,1)
+# print(res)
+# s = lambda x:x[0]!='b'
+# res= drop_right_while(l1,s)
+# print(res)
+#
+# s = lambda x:x[0]!='b'
+# res=drop_while(l1,s)
+# print(res)
+l1=[1,2,3,2,3,1,4]
+# res=duplicates(l1,)
+# print(res)
 
-    def add_im(self, path='temp/temp.png'):
-        im = Image.open(path)
-        self.im_list.append(im)
 
-    def image_resize(self, img, size=(1500, 1100)):
-        """调整图片大小
-        """
-        try:
-            if img.mode not in ('L', 'RGB'):
-                img = img.convert('RGB')
-            img = img.resize(size)
-        except Exception as e:
-            pass
-        return img
+# fi=['sdasd','dasdas']
+# res= fill(l1,fi,0,2)
+# print(res)
 
-    def image_merge(self, restriction_max_width=None, restriction_max_height=None):
-        """垂直合并多张图片
-        images - 要合并的图片路径列表
-        ouput_dir - 输出路径
-        output_name - 输出文件名
-        restriction_max_width - 限制合并后的图片最大宽度，如果超过将等比缩小
-        restriction_max_height - 限制合并后的图片最大高度，如果超过将等比缩小
-        """
-        max_width = 0
-        total_height = 0
-        # 计算合成后图片的宽度（以最宽的为准）和高度
-        for img in self.im_list:
-            width, height = img.size
-            if width > max_width:
-                max_width = width
-            total_height += height
 
-            # 产生一张空白图
-        new_img = Image.new('RGB', (max_width, total_height), 255)
-        # 合并
-        x = y = 0
-        for img in self.im_list:
-            width, height = img.size
-            new_img.paste(img, (x, y))
-            y += height
+# res= find_index(l1,lambda x:x==4)
+# print(res)
 
-        if restriction_max_width and max_width >= restriction_max_width:
-            # 如果宽带超过限制
-            # 等比例缩小
-            ratio = restriction_max_height / float(max_width)
-            max_width = restriction_max_width
-            total_height = int(total_height * ratio)
-            new_img = image_resize(new_img, size=(max_width, total_height))
 
-        if restriction_max_height and total_height >= restriction_max_height:
-            # 如果高度超过限制
-            # 等比例缩小
-            ratio = restriction_max_height / float(total_height)
-            max_width = int(max_width * ratio)
-            total_height = restriction_max_height
-            new_img = image_resize(new_img, size=(max_width, total_height))
-        new_img.save(self.save_path)
+# array = [1,23,[23,4,5,[33,445,[
+#     '34','ewq','eeq'
+#
+# ]]]]
+# res= flatten_depth(array,3)
+# print(res)
+
+# a = [['1','2'],['3','4']]
+# res=from_pairs(a)
+# print(res)
+
+# a=['1','2']
+# b=['a','b']
+# res= zip(a,b)
+# print(res)
+# print(dict(res))
+# print(list(res))
+
+a= [1,2,3,4,5,6]
+# res= head(a)
+# print(res)
+
+# print(index_of(a,2))
+
+
+
+# print(initial(a))
+
+
+
+
+# print(intercalate(a,'x'))
+# b= ['d','dsa','dsa']
+# print(interleave(a,b))
+
+# print(intersection(a,b))
+
+# print(intersection_with(a,b))
+
+# print(mapcat(a,lambda x:list(range(x))))
+
+
+# print(nth(a,3))
+
+
+from pydash.collections import *
+
+cc=(['da','db','dc','dd'])
+
+# print(find_last(a))
+# res= print(group_by(cc,lambda x:x[1]))
+
+
+# print(includes(cc,'c'))
+
+# print(key_by(cc,))
+
+
+# print(nest(cc,))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
