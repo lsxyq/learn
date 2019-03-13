@@ -2,15 +2,11 @@
 # -*- coding:UTF-8 -*-
 # Author:Leslie-x
 import sys
-
-
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import *
 from PIL import Image
 from pathlib import Path
-
-import threading
 
 
 class ScreenShotMerge():
@@ -31,7 +27,6 @@ class ScreenShotMerge():
             im = self.reedit_image(path)
         else:
             im = Image.open(path)
-
         im.save('{}/{}.png'.format(self.root_path, len(self.im_list) + 1))
         self.im_list.append(im)
 
@@ -77,41 +72,44 @@ class ScreenShotMerge():
         region = obj.crop(box)
         return region
 
-class Worker(QThread):
-    def __init__(self, parent=None):
-        super(Worker, self).__init__(parent)
-        self.working = True
-        self.num = 0
-
-    def __del__(self):
-        self.working = False
-        self.wait()
-
-    def run(self):
-        pass
-
-
-
-
 
 class MainWindow(QMainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setWindowTitle('易哈佛')
         self.temp_height = 0
+        self.setWindowFlag(Qt.WindowMinMaxButtonsHint, False)  # 禁用最大化，最小化
+        # self.setWindowFlag(Qt.WindowStaysOnTopHint, True)  # 窗口顶置
+        self.setWindowFlag(Qt.FramelessWindowHint, True)  # 窗口无边框
 
     def urlScreenShot(self, url):
         self.browser = QWebEngineView()
         self.browser.load(QUrl(url))
+        geometry = self.chose_screen()
+        self.setGeometry(geometry)
         self.browser.loadFinished.connect(self.check_page)
-        box = (600,800)
-        self.setGeometry(0,0,*box)
         self.setCentralWidget(self.browser)
+
+    def get_page_size(self):
+        size = self.browser.page().contentsSize()
+        self.set_height = size.height()
+        self.set_width = size.width()
+        return size.width(), size.height()
+
+    def chose_screen(self):
+        width, height = 750, 1370
+        desktop = QApplication.desktop()
+        screen_count = desktop.screenCount()
+        for i in range(0, screen_count):
+            rect = desktop.availableGeometry(i)
+            s_width, s_height = rect.width(), rect.height()
+            if s_width > width and s_height > height:
+                return QRect(rect.left(), rect.top(), width, height)
+        return QRect(0, 0, width, height)
 
     def check_page(self):
         p_width, p_height = self.get_page_size()
         self.page, self.over_flow_size = divmod(p_height, self.height())
-        print(self.page, self.over_flow_size)
         if self.page == 0:
             self.page = 1
         self.ssm = ScreenShotMerge(self.page, self.over_flow_size)
@@ -119,14 +117,6 @@ class MainWindow(QMainWindow):
         self.timer.timeout.connect(self.exe_command)
         self.timer.setInterval(400)
         self.timer.start()
-
-    def screen_shot(self):
-        screen = QApplication.primaryScreen()
-        winid = self.browser.winId()
-        pix = screen.grabWindow(int(winid))
-        name = '{}/temp.png'.format(self.ssm.root_path)
-        pix.save(name)
-        self.ssm.add_im(name)
 
     def exe_command(self):
         if self.page > 0:
@@ -140,7 +130,6 @@ class MainWindow(QMainWindow):
 
         elif self.over_flow_size > 0:
             self.screen_shot()
-            self.run_js()
         self.page -= 1
 
     def run_js(self):
@@ -157,33 +146,16 @@ class MainWindow(QMainWindow):
               }
             }
         """
-        # script = open('D:\learn\screenshot\loadsize.js', 'r', encoding='utf8').read()
         command = script + '\n scroll({})'.format(self.height())
         self.browser.page().runJavaScript(command)
 
-    def close_window(self):
-        self.close()
-
-    def start_window(self):
-        self.start()
-
-    def information(self):
-        desktop = QDesktopWidget()
-        screen_width = desktop.screenGeometry().width()
-        screen_height = desktop.screenGeometry().height()
-        screen_count = desktop.screenCount()
-        print("屏幕数量》》》",screen_count)
-
-        return screen_width, screen_height
-
-    def get_page_size(self):
-        size = self.browser.page().contentsSize()
-        self.set_height = size.height()
-        self.set_width = size.width()
-        return size.width(), size.height()
-
-    def closeEvent(self, *args, **kwargs):
-        pass
+    def screen_shot(self):
+        screen = QApplication.primaryScreen()
+        winid = self.browser.winId()
+        pix = screen.grabWindow(int(winid))
+        name = '{}/temp.png'.format(self.ssm.root_path)
+        pix.save(name)
+        self.ssm.add_im(name)
 
 
 if __name__ == '__main__':
@@ -193,10 +165,3 @@ if __name__ == '__main__':
     win.urlScreenShot(url)
     win.show()
     app.exit(app.exec_())
-
-
-
-
-
-
-
