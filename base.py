@@ -1,171 +1,92 @@
-#!/usr/bin/env python
-# -*- coding:UTF-8 -*-
-# Author:Leslie-x
-"""
-1 什么是数据？
-　　x=10，10是我们要存储的数据
-
-2 为何数据要分不同的类型
-　　数据是用来表示状态的，不同的状态就应该用不同的类型的数据去表示
-3 数据类型
-　　数字（整形，长整形，浮点型，复数）
-　　字符串
-　　字节串
-　　列表
-　　元组
-　　字典
-　　集合
-
-基本使用
-    1、用途
-    2、定义方式
-    3、常用操作+内置的方法
-
-该类型总结
-    存一个值or存多个值
-    有序or无序
-    可变or不可变
-        可变：值变，id不变。可变==不可hash
-        不可变：值变，id就变。不可变==可hash
+import pandas as pd
+import pymysql
 
 
-===========================整型int=================================
-
-作用：年纪，等级，身份证号，qq号等整型数字相关
-
-定义：age=10 #本质age=int(10)
-
-浮点型float
-　  作用：薪资，身高，体重，体质参数等浮点数相关
-    salary=3000.3 #本质salary=float(3000.3)
-二进制，十进制，八进制，十六进制
-
-作用：名字，性别，国籍，地址等描述信息
-
-
-
-===========================字符串=================================
-
-定义：在单引号\双引号\三引号内，由一串字符组成
-    name='egon'
-
-优先掌握的操作：
-    1、按索引取值(正向取+反向取) ：只能取
-    2、切片(顾头不顾尾，步长)
-    3、长度len
-    4、成员运算in和not in
-    5、移除空白strip
-    6、切分split
-    7、循环
-
-字符串需要掌握的操作
-    1、strip,lstrip,rstrip
-    2、lower,upper
-    3、startswith,endswith
-    4、format的三种玩法
-    5、split,rsplit
-    6、join
-    7、replace
+def parser_excel():
+    df = pd.read_excel('C:\Projects\learn\孕妇信息登记表.xlsx')
+    print(df.keys())
+    for i in df.index.values:
+        print(i)
+        data = df.ix[i].values
+        keys = ['date_of_entry', 'source', 'name', 'phone',
+                'gestation', 'trash', 'institution', 'build_date',
+                'address', 'invitation_record', 'into_date', 'comment',
+                'order_status', 'shoot_status',
+                ]
+        data_dict = dict(zip(keys, data))
+        data_dict.pop('trash')
+        data_dict = dict((key, value) for key, value in data_dict.items() if str(value) != 'nan' and str(value)!='NaT')
+        insert_form(data_dict)
 
 
-===========================列表=================================
-
-作用：多个装备，多个爱好，多门课程，多个女朋友等
-
-定义：[]内可以有多个任意类型的值，逗号分隔
-    my_girl_friends=['alex','wupeiqi','yuanhao',4,5]
-    本质my_girl_friends=list([...])或l=list('abc')
-
-优先掌握的操作：
-    1、按索引存取值(正向存取+反向存取)：即可存也可以取
-    2、切片(顾头不顾尾，步长)
-    3、长度
-    4、成员运算in和not in
-    5、追加
-    6、删除
-    7、循环
+def connect_db():
+    MYSQL_HOSTS = 'worker.qmgkj.cn'
+    MYSQL_USER = 'gravida'
+    MYSQL_PASSWORD = 'gravida'
+    MYSQL_PORT = 3300
+    MYSQL_DB = 'gravida'
+    conn = pymysql.connect(
+        host=MYSQL_HOSTS,
+        port=MYSQL_PORT,
+        user=MYSQL_USER,
+        passwd=MYSQL_PASSWORD,
+        db=MYSQL_DB,
+        charset="utf8")
+    return conn
 
 
-l=[1,2,3,4,5,6]
-
-正向步长
-    l[0:3:1] #[1, 2, 3]
-
-反向步长
-    l[2::-1] #[3, 2, 1]
-
-列表翻转
-    l[::-1] #[6, 5, 4, 3, 2, 1]
-
-
-===========================元组=================================
-
-作用：存多个值，对比列表来说，元组不可变（是可以当做字典的key的），主要是用来读
-
-定义：与列表类型比，只不过[]换成()
-    age=(11,22,33,44,55)本质age=tuple((11,22,33,44,55))
-
-优先掌握的操作：
-    1、按索引取值(正向取+反向取)：只能取
-    2、切片(顾头不顾尾，步长)
-    3、长度
-    4、成员运算in和not in
-    5、循环
+def select_id(name):
+    conn = connect_db()
+    sql = '''select id from Institution where name=%s'''
+    cursor = conn.cursor(pymysql.cursors.DictCursor)
+    try:
+        cursor.execute(sql,name)
+        data = cursor.fetchone()
+        id = data.get('id')
+        return id
+    except Exception as e:
+        pass
 
 
-===========================字典=================================
-作用：存多个值,key-value存取，取值速度快
-
-定义：key必须是不可变类型，value可以是任意类型
-    info={'name':'egon','age':18,'sex':'male'} #本质info=dict({....})
-    info=dict(name='egon',age=18,sex='male')
-    info=dict([['name','egon'],('age',18)])
-    {}.fromkeys(('name','age','sex'),None)
-
-优先掌握的操作：
-    1、按key存取值：可存可取
-    2、长度len
-    3、成员运算in和not in
-    4、删除
-    5、键keys()，值values()，键值对items()
-    6、循环
+def insert_data(table, keys, values):
+    conn = connect_db()
+    cursor = conn.cursor()
+    params = ['%s' for i in range(len(keys))]
+    sql = '''INSERT INTO {}({}) VALUES({})'''.format(table, ','.join(keys), ','.join(params))
+    cursor.execute(sql, values)
+    conn.commit()
 
 
-===========================集合=================================
-作用：
-    去重，关系运算，
-
-定义：
-    知识点回顾
-    可变类型是不可hash类型
-    不可变类型是可hash类型
-
-定义集合:
-    集合：可以包含多个元素，用逗号分割，
-    集合的元素遵循三个原则：
-        1：每个元素必须是不可变类型(可hash，可作为字典的key)
-        2:没有重复的元素
-        3：无序
-    注意集合的目的是将不同的值存放到一起，不同的集合间用来做关系运算，无需纠结于集合中单个值
+def insert_ins(name):
+    id = select_id(name)
+    if id:
+        return id
+    keys = ['name', ]
+    values = [name, ]
+    insert_data('Institution', keys, values)
+    return select_id(name)
 
 
-优先掌握的操作：
-    1、长度len
-    2、成员运算in和not in
-    3、|合集
-    4、&交集
-    5、-差集
-    6、^对称差集
-    7、==
-    8、父集：>,>=
-    9、子集：<,<=
+def insert_form(data):
+    name = data.pop('institution')
+    if name:
+        institution_id = insert_ins(name)
+    else:
+        institution_id = None
+    data['institution_id'] = institution_id
+    keys, values = check(data)
+    insert_data('register_form', keys, values)
 
-===========================数据类型总结=================================
-    数字
-    字符串
-    集合：无序，即无序存索引相关信息
-    元组：有序，需要存索引相关信息，不可变
-    列表：有序，需要存索引相关信息，可变，需要处理数据的增删改
-    字典：无序，需要存key与value映射的相关信息，可变，需要处理数据的增删改
 
-"""
+def check(data):
+    keys, values = [], []
+    for k, v in data.items():
+        if not v:
+            continue
+        keys.append(k)
+        values.append(str(v))
+    return keys, values
+
+
+parser_excel()
+

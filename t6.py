@@ -1,15 +1,17 @@
 #!/usr/bin/env python
 # -*- coding:UTF-8 -*-
 # Author:Leslie-x
-s='hello alex alex say hello sb sb'
-dic={}
-words=s.split()
-for word in words: #word='alex'
-    dic.setdefault(word,s.count(word))
-    print(dic)
+# compress_image
+# click-> dosomething
+import json
+from io import BytesIO
 
+import pydash
+from tempfile import TemporaryFile
 
-# words_set=set(words)
-# for word in words_set:
-#     dic[word]=s.count(word)
-#     print(dic)
+import requests
+from PIL import Image
+r = requests.get("https://imglive.ehafo.com/course/temp/2019/03/eqxocp2LhcCrgBtN0hTBsVm5zm2gpFTFZPhKUhd4.png")
+fd = BytesIO(r.content)
+width, height = Image.open(fd,'r').size
+print(width,height)

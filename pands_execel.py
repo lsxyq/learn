@@ -23,39 +23,50 @@ def connect_db():
 
 def select_data(dict=False):
     conn = connect_db()
-    sql = '''select * from dd_name'''
-    cursor = conn.cursor()
-    if not dict:
-        sql = '''select xs_name,category,name_id,xs_author from dd_name'''
-    else:
-        cursor = conn.cursor(pymysql.cursors.DictCursor)
+    sql = '''select id from dd_name where id=13'''
+    cursor = conn.cursor(pymysql.cursors.DictCursor)
     cursor.execute(sql)
-    data = cursor.fetchall()
+    data = cursor.fetchone()
+    print(data.get('id'))
     return data
 
+select_data()
 
-def save_as(data, columns):
-    df = pd.DataFrame(data=list(data), index=range(len(data)), columns=columns)
-    df.to_csv("output.csv")
-    df.to_excel("output.xlsx")
-
-
-def modelOne():
-    data = select_data()
-    columns = ["名称", "分类", "书号", "作者", ]
-    save_as(data, columns)
-
-
-def modelTwo():
-    data = select_data(dict=True)
-    columns = ["xs_name", "category", "name_id", "xs_author", ]
-    save_as(data, columns)
-
-
-modelOne()
-# modelTwo()
-
-df = pd.read_excel('output.xlsx')
+# def select_data(dict=False):
+#     conn = connect_db()
+#     sql = '''select * from dd_name'''
+#     cursor = conn.cursor()
+#     if not dict:
+#         sql = '''select xs_name,category,name_id,xs_author from dd_name'''
+#     else:
+#         cursor = conn.cursor(pymysql.cursors.DictCursor)
+#     cursor.execute(sql)
+#     data = cursor.fetchall()
+#     return data
+#
+#
+# def save_as(data, columns):
+#     df = pd.DataFrame(data=list(data), index=range(len(data)), columns=columns)
+#     df.to_csv("output.csv")
+#     df.to_excel("output.xlsx")
+#
+#
+# def modelOne():
+#     data = select_data()
+#     columns = ["名称", "分类", "书号", "作者", ]
+#     save_as(data, columns)
+#
+#
+# def modelTwo():
+#     data = select_data(dict=True)
+#     columns = ["xs_name", "category", "name_id", "xs_author", ]
+#     save_as(data, columns)
+#
+#
+# modelOne()
+# # modelTwo()
+#
+# df = pd.read_excel('output.xlsx')
 # data=df.ix[::-1].values
 # data=df.ix[0,1]
 
