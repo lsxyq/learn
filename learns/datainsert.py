@@ -20,7 +20,7 @@ def parser_excel():
 
 
 def connect_db():
-    MYSQL_HOSTS = 'worker.qmgkj.cn'
+    MYSQL_HOSTS = '127.0.0.0'
     MYSQL_USER = 'gravida'
     MYSQL_PASSWORD = 'gravida'
     MYSQL_PORT = 3300

@@ -23,6 +23,7 @@ class ScreenShotMerge():
         self.save_path = self.root_path.joinpath('merge.png')
 
     def add_im(self, path):
+        self.img_reload(path)
         if len(self.im_list) == self.page:
             im = self.reedit_image(path)
         else:
@@ -40,6 +41,18 @@ class ScreenShotMerge():
                 max_width = width
             total_height += height
         return max_width, total_height
+
+
+    def img_reload(self,path):
+        obj = Image.open(path)
+        width, height = obj.size
+        left, top, right, bottom = 0, 0, width, height
+        box = (left, top, right, bottom)
+        region = obj.crop(box)
+        new_img = Image.new('RGB', (width, height-12), 255)
+        new_img.paste(region, box)
+        new_img.save(path)
+
 
     def image_merge(self, ):
         if len(self.im_list) > 1:
@@ -138,7 +151,7 @@ class MainWindow(QMainWindow):
             var t = document.documentElement.scrollTop
             var h = document.documentElement.scrollHeight
             dHeight = dHeight || 0
-            var current = t + dHeight
+            var current = t + dHeight-10
             if (current > h) {
                 window.scrollTo(0, document.documentElement.clientHeight)
               } else {
@@ -165,3 +178,13 @@ if __name__ == '__main__':
     win.urlScreenShot(url)
     win.show()
     app.exit(app.exec_())
+
+
+'单行注释'
+#单行注释
+"单行注释"
+"""
+多行注释
+第一行。。。
+第二行。。。
+"""
