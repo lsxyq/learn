@@ -60,8 +60,8 @@ class DouYin(object):
             print('nickname', nickname)
             print('unique_id', unique_id)
 
-            user_url = 'https://api.amemv.com/aweme/v1/aweme/post/?user_id=%s&max_cursor=0&count=%s' % (
-                uid, aweme_count)
+            user_url = 'https://api.amemv.com/aweme/v1/aweme/post/?user_id=%s&max_cursor=0&count=%s' % (uid, aweme_count)
+            user_url = 'https://aweme.snssdk.com/aweme/v1/aweme/post/?user_id=%s&max_cursor=0&count=%s' % (uid, aweme_count)
             req = self.driver.get(url=user_url, verify=False).content.decode()
             with open('user.json', 'w', encoding='utf8') as f:
                 f.write(req)
