@@ -19,6 +19,7 @@ headers = {
     'user-agent': 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; MI 4S Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.146 Mobile Safari/537.36 XiaoMi/MiuiBrowser/9.1.3',
 }
 
+JS_PATH = Path(__file__).parent.joinpath('fuck-byted-acrawler.js').as_posix()
 
 class DouYin(object):
     def __init__(self, width=500, height=300):
@@ -32,6 +33,11 @@ class DouYin(object):
         self.driver = Browser(driver_name='chrome', executable_path=r'C:\Projects\learn\needs\chromedriver.exe',
                               options=chrome_options,
                               headless=True)
+
+    def generateSignature(value):
+        command = 'node {} {}'.format(JS_PATH, value)
+        p = os.popen(command)
+        return (p.readlines()[0]).strip()
 
     def get_video_urls(self, user_id):
         """
