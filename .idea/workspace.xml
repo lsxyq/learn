@@ -4,581 +4,25 @@
     <bookmark url="file://$PROJECT_DIR$/toutiao/test.py" line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="190f8f01-5bbc-46ec-90ab-a6b341b29169" name="Default Changelist" comment="抖音水印视频爬取">
-      <change afterPath="$PROJECT_DIR$/douyin/host.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douyin/pathtool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douyin/progressbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douyin/sharelinkjiexi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douyin/抓取规则.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsjiaoben.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/automatic/dicts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/automatic/segment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/base.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/base.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/aside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/badge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/breadcrumb-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/breadcrumb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/button-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/carousel-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/cascader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/checkbox-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/checkbox-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/col.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/collapse-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/color-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/date-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/directives/mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/directives/repeat-click.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/divider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dropdown-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dropdown-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/element-ui.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/form-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/input-number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/af-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/cs-CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/hy-AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/kg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/nb-NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ru-RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sv-SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/tr-TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ug-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/menu-item-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/menu-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/message-box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/emitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/focus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/locale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/migrating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/option-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/option.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/radio-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/radio-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/radio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/row.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/submenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tab-pane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/table-column.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/aside.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/badge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/breadcrumb-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/breadcrumb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/button-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/carousel-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/cascader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/checkbox-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/checkbox-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/col.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/collapse-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/collapse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/color-picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/date-picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/display.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/divider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dropdown-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dropdown-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/form-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/input-number.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/menu-item-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/menu-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/message-box.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/notification.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/option-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/option.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/popover.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/popper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/progress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/radio-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/radio-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/radio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/rate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/row.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/select-dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/steps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/submenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tab-pane.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/table-column.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/time-picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/time-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/timeline-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/transfer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/upload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/time-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/time-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/timeline-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/transitions/collapse-transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/af-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/cs-CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/hy-AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/kg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/nb-NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ru-RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sv-SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/tr-TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ug-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/after-leave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/aria-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/aria-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/clickoutside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/date-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/menu/aria-menubar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/menu/aria-menuitem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/menu/aria-submenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/popup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/popup/popup-manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/resize-event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/scroll-into-view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/scrollbar-width.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/shared.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/vdom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/vue-popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/img/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/locale/en-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/locale/zh-hans.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/admin.lte.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/admin.lte.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/admin.lte.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/aircraft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/aircraft.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/aircraft.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/ant.design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/ant.design.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/ant.design.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/base.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/black.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/black.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/dark.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/dark.green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/dark.green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/element.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/element.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/element.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/gray.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/gray.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/gray.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/highdmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/highdmin.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/highdmin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/layui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/layui.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/light.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/orange.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/orange.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/purple.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/purple.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/simpleui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/simpleui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/simpleui.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-blue.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-blue.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-red.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-red.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/waves/waves.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/waves/waves.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/waves/waves.min.js.map" afterDir="false" />
+    <list default="true" id="190f8f01-5bbc-46ec-90ab-a6b341b29169" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/download_url.txt" beforeDir="false" afterPath="$PROJECT_DIR$/douyin/download_url.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/downloadtools.py" beforeDir="false" afterPath="$PROJECT_DIR$/douyin/spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/douyin/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174314_452_8698.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174314_750_8701.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174317_026_8710.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174317_272_8723.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174317_508_8731.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174317_749_8739.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174317_943_8746.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174318_290_8777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_174319_557_8783.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180745_552_9124.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180745_877_9128.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180920_935_9180.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180921_137_9188.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180921_466_9217.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180922_427_9235.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_180923_201_9239.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_181114_431_33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_181115_083_56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_181958_229_101.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_182613_159_203.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_182811_443_21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_182902_596_70.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_182903_025_84.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_183819_906_323.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/urls/20190717_183820_172_325.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/douyin/videos/小依依/后面的小妹妹" beforeDir="false" afterPath="$PROJECT_DIR$/douyin/share_url.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/douyin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/love.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/playe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/player.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/req.json" beforeDir="false" afterPath="$PROJECT_DIR$/抖音爬取/req.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/抖音.py" beforeDir="false" afterPath="$PROJECT_DIR$/抖音爬取/抖音.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsjiaoben.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/代码统计.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/t2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/t3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao/a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/抖音爬取/req.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/抖音爬取/share.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/抖音爬取/抖音.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -590,8 +34,8 @@
     <SUITE FILE_PATH="coverage/learn$shibie.coverage" NAME="shibie Coverage Results" MODIFIED="1554971962676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$t10.coverage" NAME="t10 Coverage Results" MODIFIED="1557450778167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$timer.coverage" NAME="timer Coverage Results" MODIFIED="1560838086715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chrom" />
-    <SUITE FILE_PATH="coverage/learn$.coverage" NAME="抖音 Coverage Results" MODIFIED="1563411840109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抖音爬取" />
     <SUITE FILE_PATH="coverage/learn$test.coverage" NAME="test Coverage Results" MODIFIED="1563436084525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyin" />
+    <SUITE FILE_PATH="coverage/learn$.coverage" NAME="代码统计 Coverage Results" MODIFIED="1563446240261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/learn$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1560323555602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ppt" />
     <SUITE FILE_PATH="coverage/learn$mainwindow.coverage" NAME="mainwindow Coverage Results" MODIFIED="1557450878576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1563186258336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -644,16 +88,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/douyin/spider.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/代码统计.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="118" column="34" lean-forward="true" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+            <state relative-caret-position="280">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
-                <element signature="e#63#74#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/out.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -767,18 +216,7 @@
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="douyin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="douyin" type="462c0819:PsiDirectoryNode" />
-              <item name="urls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="抖音爬取" type="462c0819:PsiDirectoryNode" />
+              <item name="needs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -827,8 +265,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spider">
-    <configuration name="douyin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.代码统计">
+    <configuration name="代码统计" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -836,12 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/抖音爬取" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/抖音爬取/douyin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/代码统计.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -940,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.代码统计" />
         <item itemvalue="Python.spider" />
         <item itemvalue="Python.downloadtools" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.jsjiaoben" />
-        <item itemvalue="Python.douyin" />
       </list>
     </recent_temporary>
   </component>
@@ -1084,6 +522,8 @@
       <workItem from="1563237919070" duration="22463000" />
       <workItem from="1563324302685" duration="21344000" />
       <workItem from="1563411314837" duration="27173000" />
+      <workItem from="1563445548857" duration="261000" />
+      <workItem from="1563445987234" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="xian mu shang chuang">
       <created>1551091045101</created>
@@ -1127,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563360481160</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="抖音无水印视频爬取">
+      <created>1563445574092</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563445574092</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612162000" />
+    <option name="totallyTimeSpent" value="612689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1144,9 +591,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.41151386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.42110875" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.21215352" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1203,278 +649,10 @@
     <MESSAGE value="同步文件" />
     <MESSAGE value="抖音爬取" />
     <MESSAGE value="抖音水印视频爬取" />
-    <option name="LAST_COMMIT_MESSAGE" value="抖音水印视频爬取" />
+    <MESSAGE value="抖音无水印视频爬取" />
+    <option name="LAST_COMMIT_MESSAGE" value="抖音无水印视频爬取" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190717_180921_466_9217.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190717_182811_443_21.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190717_182903_025_84.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190717_182902_596_70.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190717_174317_943_8746.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190717_174314_452_8698.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#246#6903#0" />
-            <element signature="e#419#804#0" />
-            <element signature="e#830#1209#0" />
-            <element signature="e#1236#1615#0" />
-            <element signature="e#6920#11515#0" />
-            <element signature="e#11556#21523#0" />
-            <element signature="e#11579#12704#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_090640_277_452.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_090647_213_542.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
-          <folding>
-            <element signature="e#450#839#0" />
-            <element signature="e#865#1248#0" />
-            <element signature="e#1275#1658#0" />
-            <element signature="e#2893#3476#0" />
-            <element signature="e#5151#5525#0" />
-            <element signature="e#5956#6372#0" />
-            <element signature="e#6400#6816#0" />
-            <element signature="e#7151#7540#0" />
-            <element signature="e#7565#7954#0" />
-            <element signature="e#7980#8363#0" />
-            <element signature="e#8388#8771#0" />
-            <element signature="e#8793#9043#0" />
-            <element signature="e#9851#10117#0" />
-            <element signature="e#10334#10717#0" />
-            <element signature="e#10744#11127#0" />
-            <element signature="e#11153#11542#0" />
-            <element signature="e#11634#13111#0" />
-            <element signature="e#13128#22464#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/douyin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2361">
-          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
-          <folding>
-            <element signature="e#63#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_091037_797_10.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="518" column="59" lean-forward="true" selection-start-line="518" selection-start-column="20" selection-end-line="518" selection-end-column="159" />
-          <folding>
-            <element signature="e#268#6951#0" />
-            <element signature="e#441#830#0" />
-            <element signature="e#856#1239#0" />
-            <element signature="e#1266#1649#0" />
-            <element signature="e#2884#3467#0" />
-            <element signature="e#4112#4218#0" />
-            <element signature="e#5142#5516#0" />
-            <element signature="e#5947#6363#0" />
-            <element signature="e#6391#6807#0" />
-            <element signature="e#6968#11684#0" />
-            <element signature="e#7152#7537#0" />
-            <element signature="e#7562#7947#0" />
-            <element signature="e#11704#13282#0" />
-            <element signature="e#13299#23411#0" />
-            <element signature="e#14498#14881#0" />
-            <element signature="e#14954#15292#0" />
-            <element signature="e#15318#15680#0" />
-            <element signature="e#15732#16315#0" />
-            <element signature="e#16375#17532#0" />
-            <element signature="e#17554#20176#0" />
-            <element signature="e#17695#18896#0" />
-            <element signature="e#18953#20154#0" />
-            <element signature="e#20241#20838#0" />
-            <element signature="e#23619#23848#0" />
-            <element signature="e#23866#24269#0" />
-            <element signature="e#24309#24708#0" />
-            <element signature="e#24515#24700#0" />
-            <element signature="e#24748#25064#0" />
-            <element signature="e#26802#26842#0" />
-            <element signature="e#30905#56386#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_095217_651_14.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="508" column="159" lean-forward="true" selection-start-line="508" selection-start-column="30" selection-end-line="508" selection-end-column="161" />
-          <folding>
-            <element signature="e#237#6931#0" />
-            <element signature="e#427#816#0" />
-            <element signature="e#842#1225#0" />
-            <element signature="e#1252#1635#0" />
-            <element signature="e#2863#3446#0" />
-            <element signature="e#4091#4197#0" />
-            <element signature="e#5122#5496#0" />
-            <element signature="e#6948#11592#0" />
-            <element signature="e#11633#21118#0" />
-            <element signature="e#21326#21545#0" />
-            <element signature="e#21563#21968#0" />
-            <element signature="e#22050#22366#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-156115191/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="5155" column="8" selection-start-line="5155" selection-start-column="8" selection-end-line="5155" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/splinter/driver/zopetestbrowser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/抖音.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/js2py/evaljs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_095220_223_19.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/asdhjas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/playe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="171" column="44" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/player.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/love.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/user.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/jiexi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="90" column="48" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/req.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="436" column="1" selection-start-line="436" selection-start-column="1" selection-end-line="436" selection-end-column="1" />
-          <folding>
-            <element signature="e#36#6956#0" />
-            <element signature="e#6962#13851#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/dshare_url.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-156115191/_md5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/share.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#63#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsjiaoben.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#63#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1482,33 +660,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/jiexi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/jiexi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_150632_603_310.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_135614_959_3630.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_135708_256_3750.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/douyin/jiexi.html" />
+    <entry file="file://$PROJECT_DIR$/douyin/jiexi.js" />
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_150632_603_310.json" />
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_135614_959_3630.json" />
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_135708_256_3750.json" />
     <entry file="file://$PROJECT_DIR$/douyin/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
@@ -1579,26 +735,10 @@
         <state relative-caret-position="-19928" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175928_139_1624.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175913_401_1552.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175927_810_1620.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175932_449_1638.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175928_139_1624.json" />
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175913_401_1552.json" />
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175927_810_1620.json" />
+    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175932_449_1638.json" />
     <entry file="file://$PROJECT_DIR$/douyin/download_url.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1388">
@@ -1606,15 +746,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/抖音爬取/抖音.py" />
+    <entry file="file://$PROJECT_DIR$/抖音爬取/share.py" />
+    <entry file="file://$PROJECT_DIR$/jsjiaoben.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#63#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/douyin/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="118" column="34" lean-forward="true" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="e#63#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window/mainwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#198#1432#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/a.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/a.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/favourite.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#56#26691#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/rsp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/a.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/keyevent.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/t3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/t2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#63#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot/screenshot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learns/datainsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learns/facescore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learns/Pydash.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learns/命令解析.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learns/异步回调.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learns/颜值检测.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/needs/gdigrab.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/代码统计.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
