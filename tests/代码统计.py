@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 
 COLLECT_SUFFIX = ('.py')  # 统计的文件后缀
-IGNORE_SUFFIX = ('.png', '.jpg', '.mp3',)
+IGNORE_SUFFIX = ('.png', '.jpg', '.mp3','.mp4')
 COMMENT_SYMBOL = ('#', '"""', '""', "'")  # 注释符号
 IGNORE = ('venv', 'migrations', 'logs', '.git', 'coursepoints')  # 不需统计的文件夹
 
@@ -41,6 +41,7 @@ class CodeCount(object):
         self.parser_file(path)
 
     def parser_file(self, path):
+        print(path)
         f = open(path, 'r', encoding='utf8')
         lines = [line for line in f.readlines() if line]
         temp_count = 0
@@ -61,4 +62,5 @@ class CodeCount(object):
 
 
 c = CodeCount()
-c.start(r'C:\Projects\coursepoint')
+# c.start(r'C:\Projects\coursepoint')
+c.start(r'C:\Projects\learn\douyin')

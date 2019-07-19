@@ -1,0 +1,114 @@
+if (oSession.uriContains('https://api.huoshan.com/hotsoon/item/profile/published_list/')) {
+  var sps = oSession.PathAndQuery.slice(-58,);
+  var strBody = oSession.GetResponseBodyAsString();
+  var dSessionId = oSession.id;
+
+  // 时间格式化
+  var date = new Date();
+  var month = date.getMonth() + 1;
+  var strDate = date.getDate();
+  var strHours = date.getHours();
+  var strMinutes = date.getMinutes();
+  var strSeconds = date.getSeconds();
+  var strMilliSeconds = date.getMilliseconds();
+
+  if (month >= 1 && month <= 9) {
+    month = '0' + month;
+  }
+  if (strDate >= 0 && strDate <= 9) {
+    strDate = '0' + strDate;
+  }
+  if (strHours >= 0 && strHours <= 9) {
+    strHours = '0' + strHours;
+  }
+  if (strMinutes >= 0 && strMinutes <= 9) {
+    strMinutes = '0' + strMinutes;
+  }
+  if (strSeconds >= 0 && strSeconds <= 9) {
+    strSeconds = '0' + strSeconds;
+  }
+  if (strMilliSeconds >= 0 && strMilliSeconds <= 9) {
+    strMilliSeconds = '00' + strMilliSeconds;
+  } else if (strMilliSeconds >= 10 && strMilliSeconds <= 99) {
+    strMilliSeconds = '0' + strMilliSeconds;
+  }
+
+  var currentdate = date.getFullYear() + month + strDate
+    + '_' + strHours + strMinutes + strSeconds + '_' + strMilliSeconds;
+
+  var filename = 'C:/Projects/learn/tiktok/huoshan/urls' + '/' + currentdate + '_' + dSessionId + '.json';
+  var curDate = new Date();
+  var hw: System.IO.StreamWriter;
+  if (System.IO.File.Exists(filename)) {
+    hw = System.IO.File.AppendText(filename);
+    hw.Write(strBody);
+  } else {
+    hw = System.IO.File.CreateText(filename);
+    hw.Write(strBody);
+  }
+
+  hw.Close();
+  hw.Dispose();
+}
+
+
+
+if (oSession.uriContains('https://hotsoon.snssdk.com/hotsoon/item/profile/published_list/')) {
+  var sps = oSession.PathAndQuery.slice(-58,);
+  var strBody = oSession.GetResponseBodyAsString();
+  var dSessionId = oSession.id;
+
+  // 时间格式化
+  var date = new Date();
+  var month = date.getMonth() + 1;
+  var strDate = date.getDate();
+  var strHours = date.getHours();
+  var strMinutes = date.getMinutes();
+  var strSeconds = date.getSeconds();
+  var strMilliSeconds = date.getMilliseconds();
+
+  if (month >= 1 && month <= 9) {
+    month = '0' + month;
+  }
+  if (strDate >= 0 && strDate <= 9) {
+    strDate = '0' + strDate;
+  }
+  if (strHours >= 0 && strHours <= 9) {
+    strHours = '0' + strHours;
+  }
+  if (strMinutes >= 0 && strMinutes <= 9) {
+    strMinutes = '0' + strMinutes;
+  }
+  if (strSeconds >= 0 && strSeconds <= 9) {
+    strSeconds = '0' + strSeconds;
+  }
+  if (strMilliSeconds >= 0 && strMilliSeconds <= 9) {
+    strMilliSeconds = '00' + strMilliSeconds;
+  } else if (strMilliSeconds >= 10 && strMilliSeconds <= 99) {
+    strMilliSeconds = '0' + strMilliSeconds;
+  }
+
+  var currentdate = date.getFullYear() + month + strDate
+    + '_' + strHours + strMinutes + strSeconds + '_' + strMilliSeconds;
+
+  var filename = 'C:/Projects/learn/tiktok/huoshan/urls' + '/' + currentdate + '_' + dSessionId + '.json';
+  var curDate = new Date();
+  var hotsoon: System.IO.StreamWriter;
+  if (System.IO.File.Exists(filename)) {
+    hotsoon = System.IO.File.AppendText(filename);
+    hotsoon.Write(strBody);
+  } else {
+    hotsoon = System.IO.File.CreateText(filename);
+    hotsoon.Write(strBody);
+  }
+
+  hotsoon.Close();
+  hotsoon.Dispose();
+}
+
+
+
+"""host
+api.huoshan.com;
+hotsoon.snssdk.com;
+"""

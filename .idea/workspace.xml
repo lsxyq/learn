@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190f8f01-5bbc-46ec-90ab-a6b341b29169" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/抖音.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiktok/douyin/douyincaught" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiktok/huoshan/huoshancaught" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsjiaoben.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppt.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/t1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/t5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/代码统计.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/t2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/t3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao/a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/req.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/share.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/抖音爬取/抖音.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/download_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/host.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/pathtool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/progressbar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/share_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/sharelinkjiexi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tiktok/huoshan/sharelinkjiexi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/douyin/抓取规则.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/代码统计.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/代码统计.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,8 @@
     <SUITE FILE_PATH="coverage/learn$t10.coverage" NAME="t10 Coverage Results" MODIFIED="1557450778167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$timer.coverage" NAME="timer Coverage Results" MODIFIED="1560838086715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chrom" />
     <SUITE FILE_PATH="coverage/learn$test.coverage" NAME="test Coverage Results" MODIFIED="1563436084525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyin" />
-    <SUITE FILE_PATH="coverage/learn$.coverage" NAME="代码统计 Coverage Results" MODIFIED="1563446240261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/learn$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1560323555602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ppt" />
+    <SUITE FILE_PATH="coverage/learn$.coverage" NAME="代码统计 Coverage Results" MODIFIED="1563498470514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/learn$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1563518457342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tiktok/tests" />
     <SUITE FILE_PATH="coverage/learn$mainwindow.coverage" NAME="mainwindow Coverage Results" MODIFIED="1557450878576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1563186258336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/learn$pands_execel.coverage" NAME="pands_execel Coverage Results" MODIFIED="1556176380996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -44,26 +41,31 @@
     <SUITE FILE_PATH="coverage/learn$t1__1_.coverage" NAME="t1 (1) Coverage Results" MODIFIED="1563176405275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/learn$historymerge.coverage" NAME="historymerge Coverage Results" MODIFIED="1551342996919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1559641612893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/learn$doyinspider.coverage" NAME="doyinspider Coverage Results" MODIFIED="1563512691077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tiktok/douyin" />
+    <SUITE FILE_PATH="coverage/learn$huoshanpath.coverage" NAME="huoshanpath Coverage Results" MODIFIED="1563519138912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tiktok/huoshan" />
     <SUITE FILE_PATH="coverage/learn$jsjiaoben.coverage" NAME="jsjiaoben Coverage Results" MODIFIED="1563430437509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$beauty.coverage" NAME="beauty Coverage Results" MODIFIED="1553566170350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$path.coverage" NAME="path Coverage Results" MODIFIED="1557477374001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/learn$douyin.coverage" NAME="douyin Coverage Results" MODIFIED="1563412215160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抖音爬取" />
+    <SUITE FILE_PATH="coverage/learn$huoshanspider.coverage" NAME="huoshanspider Coverage Results" MODIFIED="1563523035541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tiktok/huoshan" />
     <SUITE FILE_PATH="coverage/learn$screenshot__1_.coverage" NAME="screenshot (1) Coverage Results" MODIFIED="1552267952169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/screenshot" />
     <SUITE FILE_PATH="coverage/learn$t5.coverage" NAME="t5 Coverage Results" MODIFIED="1562314309416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$mainwindow__2_.coverage" NAME="mainwindow (2) Coverage Results" MODIFIED="1557465354621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/window" />
     <SUITE FILE_PATH="coverage/learn$t8.coverage" NAME="t8 Coverage Results" MODIFIED="1552272596599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$percent.coverage" NAME="percent Coverage Results" MODIFIED="1563329372116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进度条" />
     <SUITE FILE_PATH="coverage/learn$keyevent.coverage" NAME="keyevent Coverage Results" MODIFIED="1554083838020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn$sharelinkjiexi.coverage" NAME="sharelinkjiexi Coverage Results" MODIFIED="1563519776157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tiktok/huoshan" />
     <SUITE FILE_PATH="coverage/learn$json.coverage" NAME="json合并 Coverage Results" MODIFIED="1551150679423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1563328977700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进度条" />
     <SUITE FILE_PATH="coverage/learn$t7.coverage" NAME="t7 Coverage Results" MODIFIED="1552267700602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1560742343773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chrom" />
+    <SUITE FILE_PATH="coverage/learn$huoshandatacleaning.coverage" NAME="huoshandatacleaning Coverage Results" MODIFIED="1563514237134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tiktok/huoshan" />
     <SUITE FILE_PATH="coverage/learn$love.coverage" NAME="love Coverage Results" MODIFIED="1563262147015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抖音爬取" />
     <SUITE FILE_PATH="coverage/learn$base.coverage" NAME="base Coverage Results" MODIFIED="1556185453425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$map4.coverage" NAME="map4 Coverage Results" MODIFIED="1553076203697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$t6.coverage" NAME="t6 Coverage Results" MODIFIED="1555478492054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$screenshot.coverage" NAME="screenshot Coverage Results" MODIFIED="1559727428879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/screenshot" />
-    <SUITE FILE_PATH="coverage/learn$spider.coverage" NAME="spider Coverage Results" MODIFIED="1563443806913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyin" />
+    <SUITE FILE_PATH="coverage/learn$spider.coverage" NAME="spider Coverage Results" MODIFIED="1563500865840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douyin" />
     <SUITE FILE_PATH="coverage/learn$t9.coverage" NAME="t9 Coverage Results" MODIFIED="1552467021783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$tyopicture.coverage" NAME="tyopicture Coverage Results" MODIFIED="1550658073898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn$share.coverage" NAME="share Coverage Results" MODIFIED="1563274195673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抖音爬取" />
@@ -88,21 +90,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/代码统计.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tiktok/huoshan/huoshanspider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="708">
+              <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#63#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/out.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -134,33 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/t2.py" />
-        <option value="$PROJECT_DIR$/抖音爬取/love.py" />
-        <option value="$PROJECT_DIR$/b.json" />
-        <option value="$PROJECT_DIR$/toutiao/test.py" />
-        <option value="$PROJECT_DIR$/抖音爬取/share.py" />
-        <option value="$PROJECT_DIR$/douyin/urls/497720190716_205048_725.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/508120190716_205059_027.json" />
-        <option value="$PROJECT_DIR$/进度条/t1.py" />
-        <option value="$PROJECT_DIR$/进度条/时间进度条.py" />
-        <option value="$PROJECT_DIR$/进度条/percent.py" />
-        <option value="$PROJECT_DIR$/抖音爬取/player.html" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_111638.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_111640.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_111636.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_111641.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_111647.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_111652.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_113027_733_2114.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_113041_164_2311.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_113041_025_2299.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_113033_511_2125.json" />
-        <option value="$PROJECT_DIR$/抖音爬取/playe.html" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190717_174314_452_8698.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/抖音爬取/douyin.py" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190718_091037_797_10.json" />
-        <option value="$PROJECT_DIR$/douyin/urls/20190718_090647_213_542.json" />
         <option value="$PROJECT_DIR$/douyin/urls/20190718_095217_651_14.json" />
         <option value="$PROJECT_DIR$/抖音爬取/asdhjas.py" />
         <option value="$PROJECT_DIR$/抖音爬取/抖音.py" />
@@ -180,11 +150,38 @@
         <option value="$PROJECT_DIR$/douyin/videos/host.py" />
         <option value="$PROJECT_DIR$/douyin/抓取规则.js" />
         <option value="$PROJECT_DIR$/douyin/progressbar.py" />
-        <option value="$PROJECT_DIR$/douyin/pathtool.py" />
-        <option value="$PROJECT_DIR$/douyin/sharelinkjiexi.py" />
-        <option value="$PROJECT_DIR$/douyin/spider.py" />
         <option value="$PROJECT_DIR$/douyin/urls/20190718_175928_139_1624.json" />
         <option value="$PROJECT_DIR$/douyin/urls/20190718_175913_401_1552.json" />
+        <option value="$PROJECT_DIR$/tests/代码统计.py" />
+        <option value="$PROJECT_DIR$/douyin/pathtool.py" />
+        <option value="$PROJECT_DIR$/douyin/finish/20190718_135708_256_3750.json" />
+        <option value="$PROJECT_DIR$/douyin/datacleaning.py" />
+        <option value="$PROJECT_DIR$/douyin/host.py" />
+        <option value="$PROJECT_DIR$/douyin/spider.py" />
+        <option value="$PROJECT_DIR$/douyin/sharelinkjiexi.py" />
+        <option value="$PROJECT_DIR$/douyin/finish/20190718_135710_729_3761.json" />
+        <option value="$PROJECT_DIR$/tests/jiexi.py" />
+        <option value="$PROJECT_DIR$/huoshan/finish/20190718_150632_360_300.json" />
+        <option value="$PROJECT_DIR$/tiktok/抓取规则.js" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/doyinspider.py" />
+        <option value="$PROJECT_DIR$/tiktok/douyin/urls/20190719_112326_273_1.json" />
+        <option value="$PROJECT_DIR$/tiktok/douyin/doyinspider.py" />
+        <option value="$PROJECT_DIR$/tiktok/sharelinkjiexi.py" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/others.txt" />
+        <option value="$PROJECT_DIR$/tiktok/douyin/others" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/share_url.txt" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/download_url.txt" />
+        <option value="$PROJECT_DIR$/tiktok/host.py" />
+        <option value="$PROJECT_DIR$/tiktok/douyin/douyincaught" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131757_425_125.json" />
+        <option value="$PROJECT_DIR$/tiktok/tests/test.py" />
+        <option value="$PROJECT_DIR$/tiktok/douyin/sharelinkjiexi.py" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/huoshanpath.py" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/huoshandatacleaning.py" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/sharelinkjiexi.py" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/huoshanspider.py" />
+        <option value="$PROJECT_DIR$/tiktok/huoshan/huoshancaught" />
       </list>
     </option>
   </component>
@@ -195,8 +192,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-1" />
+    <option name="x" value="-26" />
+    <option name="y" value="247" />
     <option name="width" value="1934" />
     <option name="height" value="1048" />
   </component>
@@ -212,11 +209,6 @@
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="needs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -239,18 +231,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\learn\douyin" />
-      <recent name="C:\Projects\learn\ppt" />
-      <recent name="C:\Projects\learn\screenshot" />
-      <recent name="C:\Projects\learn\ppt\3" />
-      <recent name="C:\Projects\learn\ppt\2" />
+      <recent name="C:\Projects\learn\tiktok\huoshan\urls" />
+      <recent name="C:\Projects\learn\tiktok\douyin" />
+      <recent name="C:\Projects\learn\tiktok" />
+      <recent name="C:\Projects\learn\tiktok\tests" />
+      <recent name="C:\Projects\learn\tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\learn\tiktok\huoshan" />
+      <recent name="C:\Projects\learn\tiktok" />
+      <recent name="C:\Projects\learn\huoshan" />
+      <recent name="C:\Projects\learn\tests" />
       <recent name="C:\Projects\learn\douyin" />
-      <recent name="C:\Projects\learn\抖音爬取" />
-      <recent name="C:\Projects\learn\videos" />
-      <recent name="C:\Projects\learn\chrom" />
-      <recent name="C:\Projects\learn\ppt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,8 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.代码统计">
-    <configuration name="代码统计" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.huoshanspider">
+    <configuration name="huoshandatacleaning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tiktok/huoshan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/代码统计.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tiktok/huoshan/huoshandatacleaning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="downloadtools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="huoshanpath" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,12 +288,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/douyin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tiktok/huoshan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Projects\learn\douyin\spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tiktok/huoshan/huoshanpath.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jsjiaoben" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="huoshanspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tiktok/huoshan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jsjiaoben.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tiktok/huoshan/huoshanspider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sharelinkjiexi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,12 +332,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/douyin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tiktok/huoshan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/douyin/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tiktok/huoshan/sharelinkjiexi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,12 +354,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/douyin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tiktok/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/douyin/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tiktok/tests/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.代码统计" />
-        <item itemvalue="Python.spider" />
-        <item itemvalue="Python.downloadtools" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.jsjiaoben" />
+        <item itemvalue="Python.huoshanspider" />
+        <item itemvalue="Python.sharelinkjiexi" />
+        <item itemvalue="Python.huoshanpath" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.huoshandatacleaning" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +515,8 @@
       <workItem from="1563324302685" duration="21344000" />
       <workItem from="1563411314837" duration="27173000" />
       <workItem from="1563445548857" duration="261000" />
-      <workItem from="1563445987234" duration="266000" />
+      <workItem from="1563445987234" duration="306000" />
+      <workItem from="1563498169032" duration="21427000" />
     </task>
     <task id="LOCAL-00001" summary="xian mu shang chuang">
       <created>1551091045101</created>
@@ -574,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563445574092</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="清理文件夹">
+      <created>1563446273470</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563446273470</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612689000" />
+    <option name="totallyTimeSpent" value="634156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,12 +592,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.42110875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.14872068" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.21215352" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32739422" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5991091" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.33853006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -650,254 +650,404 @@
     <MESSAGE value="抖音爬取" />
     <MESSAGE value="抖音水印视频爬取" />
     <MESSAGE value="抖音无水印视频爬取" />
-    <option name="LAST_COMMIT_MESSAGE" value="抖音无水印视频爬取" />
+    <MESSAGE value="清理文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="清理文件夹" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/element.py">
+    <entry file="file://$PROJECT_DIR$/douyin/downloadtoos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="949" column="8" selection-start-line="949" selection-start-column="8" selection-end-line="949" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/jiexi.html" />
-    <entry file="file://$PROJECT_DIR$/douyin/jiexi.js" />
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_150632_603_310.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_135614_959_3630.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_135708_256_3750.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#63#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="525" column="8" selection-start-line="525" selection-start-column="8" selection-end-line="525" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/抓取规则.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/progressbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="328">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/pathlib.py">
+    <entry file="file://$PROJECT_DIR$/douyin/doyinspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="983" column="6" selection-start-line="983" selection-start-column="6" selection-end-line="983" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/sharelinkjiexi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#63#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/host.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/pathtool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="274">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
           <folding>
             <element signature="e#63#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/share_url.txt">
+    <entry file="file://$PROJECT_DIR$/douyin/sharelinkjiexi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19928" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175928_139_1624.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175913_401_1552.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175927_810_1620.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/urls/20190718_175932_449_1638.json" />
-    <entry file="file://$PROJECT_DIR$/douyin/download_url.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1388">
-          <caret line="1024" column="40" selection-start-line="1024" selection-start-column="40" selection-end-line="1024" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/抖音爬取/抖音.py" />
-    <entry file="file://$PROJECT_DIR$/抖音爬取/share.py" />
-    <entry file="file://$PROJECT_DIR$/jsjiaoben.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#63#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douyin/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state>
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="e#63#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/window/mainwindow.py">
+    <entry file="file://$PROJECT_DIR$/douyin/finish/20190718_135710_729_3761.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="200">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
-            <element signature="e#198#1432#0" />
+            <element signature="e#252#6922#0" />
+            <element signature="e#440#825#0" />
+            <element signature="e#6939#11253#0" />
+            <element signature="e#11317#12442#0" />
+            <element signature="e#11394#12309#0" />
+            <element signature="e#12461#12844#0" />
+            <element signature="e#12917#13255#0" />
+            <element signature="e#13281#13643#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/a.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/a.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/favourite.json">
+    <entry file="file://$PROJECT_DIR$/tests/jiexi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="783">
+          <caret line="2713" lean-forward="true" selection-start-line="2713" selection-end-line="2713" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douyin/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
           <folding>
-            <element signature="e#56#26691#0" />
+            <element signature="e#63#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/rsp.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/a.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/test.py">
+    <entry file="file://$PROJECT_DIR$/douyin/share_url.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/keyevent.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/t3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/t2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#63#79#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="587">
+          <caret line="1148" column="5" selection-start-line="1148" selection-end-line="1148" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshot/screenshot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learns/datainsert.py">
+    <entry file="file://$PROJECT_DIR$/tests/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
+        <state relative-caret-position="-291">
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learns/facescore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learns/Pydash.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learns/命令解析.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learns/异步回调.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learns/颜值检测.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/needs/gdigrab.bat">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/代码统计.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="380">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/out.txt">
+    <entry file="file://$PROJECT_DIR$/tests/抖音.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huoshan/finish/20190718_150632_360_300.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="1320" column="30" selection-start-line="1320" selection-start-column="30" selection-end-line="1320" selection-end-column="30" />
+          <folding>
+            <element signature="e#123#25301#0" />
+            <element signature="e#25307#53560#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/finish/20190718_150632_360_300.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret column="2032" lean-forward="true" selection-start-column="2032" selection-end-column="2032" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/抓取规则.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/host.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/downloadtoos.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/urls/20190719_112300_511_112.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/urls/20190719_112326_273_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1225">
+          <caret line="436" selection-start-line="436" selection-end-line="436" />
+          <folding>
+            <element signature="e#282#6956#0" />
+            <element signature="e#458#843#0" />
+            <element signature="e#869#1248#0" />
+            <element signature="e#1275#1654#0" />
+            <element signature="e#2897#3480#0" />
+            <element signature="e#4125#4231#0" />
+            <element signature="e#5155#5529#0" />
+            <element signature="e#5960#6372#0" />
+            <element signature="e#6400#6812#0" />
+            <element signature="e#6973#10259#0" />
+            <element signature="e#10300#18935#0" />
+            <element signature="e#19143#19369#0" />
+            <element signature="e#19387#19792#0" />
+            <element signature="e#19874#20190#0" />
+            <element signature="e#20212#20951#0" />
+            <element signature="e#21064#24888#0" />
+            <element signature="e#25036#25160#0" />
+            <element signature="e#25777#25870#0" />
+            <element signature="e#25931#25971#0" />
+            <element signature="e#26280#26571#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9259" column="27" selection-start-line="9259" selection-start-column="27" selection-end-line="9259" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/抓取规则.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="21" lean-forward="true" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/host.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/share_url.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_240_45.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#817#1207#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="762" column="4" selection-start-line="762" selection-start-column="4" selection-end-line="762" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/tests/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#63#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131757_425_125.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="319" column="38" selection-start-line="319" selection-start-column="19" selection-end-line="319" selection-end-column="38" />
+          <folding>
+            <element signature="e#169#13313#0" />
+            <element signature="e#621#2717#0" />
+            <element signature="e#2743#3311#0" />
+            <element signature="e#3339#3913#0" />
+            <element signature="e#3942#4510#0" />
+            <element signature="e#4538#5106#0" />
+            <element signature="e#6154#12793#0" />
+            <element signature="e#14235#14797#0" />
+            <element signature="e#15443#17267#0" />
+            <element signature="e#17286#17418#0" />
+            <element signature="e#17660#22266#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131757_425_125.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131757_425_125.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131757_425_125.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/finish/20190719_131757_425_125.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="370" column="10" lean-forward="true" selection-start-line="370" selection-start-column="10" selection-end-line="370" selection-end-column="10" />
+          <folding>
+            <element signature="e#169#13313#0" />
+            <element signature="e#14235#14797#0" />
+            <element signature="e#15443#17267#0" />
+            <element signature="e#17286#17418#0" />
+            <element signature="e#17660#22266#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/share_url.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/download_url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/huoshanpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/huoshandatacleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding>
+            <element signature="e#63#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/urls/20190719_131803_869_50.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/sharelinkjiexi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/finish/20190719_131803_240_45.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/huoshancaught">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="56" column="7" selection-start-line="55" selection-end-line="106" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/sharelinkjiexi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="e#63#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/doyinspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/download_url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/douyinpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/douyindatacleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#63#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/douyin/douyincaught">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="108" column="6" selection-start-line="108" selection-end-line="112" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/downloadtoos.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiktok/huoshan/huoshanspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+          <folding>
+            <element signature="e#63#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
