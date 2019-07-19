@@ -11,8 +11,8 @@ import urllib3
 
 from tiktok.douyin.douyindatacleaning import DataCleaning
 from tiktok.douyin.douyinpath import douyin_path
-from tiktok.downloadtoos import index
 from tiktok.douyin.sharelinkjiexi import JieXiShareLink
+from tiktok.downloadtoos import index
 
 headers = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',

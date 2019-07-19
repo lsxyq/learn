@@ -28,7 +28,7 @@ class JieXiShareLink(object):
 
     @classmethod
     def match_video_id(cls, str):
-        res = re.findall("video_id=(.*?)&",str)
+        res = re.findall("video_id=(.*?)&", str)
         if res: return res[0]
 
     @classmethod
