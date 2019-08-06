@@ -56,7 +56,7 @@ class JieXiShareLink(object):
         :param url:
         :return:
         """
-        time.sleep(2)
+        time.sleep(1)
         link = video_share_link.replace('复制此链接，打开【抖音短视频】，直接观看视频！', '')
         last_index = link.rindex("http://")
         if last_index == -1:
@@ -67,9 +67,9 @@ class JieXiShareLink(object):
         link = link[c:]
         random_res = random.random()
         r = str(random_res)[2:]
-        parseTempStr = link + '@&^' + r
+        parse_temp_str = link + '@&^' + r
         md = md5()
-        md.update(parseTempStr.encode('utf8'))
+        md.update(parse_temp_str.encode('utf8'))
         s = md.hexdigest()
         url = 'http://3g.gljlw.com/diy/douyin2019.php?url=' + link + '&r=' + r + '&s=' + s
         return url
