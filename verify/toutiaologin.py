@@ -4,6 +4,7 @@
 
 import random
 import time
+from abc import abstractmethod, ABCMeta
 from io import BytesIO
 
 import cv2
@@ -12,41 +13,49 @@ import requests
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver import ActionChains
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class CrackSlider():
+class SliderVerifyLogin(metaclass=ABCMeta):
+    """通过浏览器截图，识别验证码中缺口位置，获取需要滑动距离，并模仿人类行为破解滑动验证码
+    verify_image_width: 验证的图片宽度
     """
-    通过浏览器截图，识别验证码中缺口位置，获取需要滑动距离，并模仿人类行为破解滑动验证码
-    """
+    verify_image_width = 268
 
-    def __init__(self):
+    def __init__(self, headless=False):
         self.url = 'https://www.toutiao.com/'
-        self.driver = webdriver.Chrome()
+        self.driver = self.init_headless(headless)
         self.wait = WebDriverWait(self.driver, 20)
-        self.bg_image = 'bg_image.png'
-        self.bg_block = 'bg_block.png'
-        self.zoom = 1
+        self.bg_image = 'bg_image.png'  # 验证图片本地名称
+        self.bg_block = 'bg_block.png'  # 滑动图片本地名称
+        self.zoom = 1  # 下载图片的默认缩放比例
 
-    def open(self):
+    def init_headless(self, headless=False):
+        if headless:
+            chrome_options = Options()
+            chrome_options.add_argument("--headless")
+            driver = webdriver.Chrome(chrome_options=chrome_options)
+        else:
+            driver = webdriver.Chrome()
+        return driver
+
+    def load_home_page(self):
         self.driver.get(self.url)
 
-    def load_login_page(self):
-        self.driver.find_element_by_class_name('login-button').click()
-        self.driver.find_element_by_id('login-type-account').click()
+    @abstractmethod
+    def get_picture_tag(self):
+        pass
 
-    def insert_data(self):
-        self.driver.find_element_by_id('user-name').send_keys('18358467482')
-        self.driver.find_element_by_id('password').send_keys('359287416xyQ')
-        self.driver.find_element_by_id('login-button').click()
-        time.sleep(2)
+    @abstractmethod
+    def get_slider_button(self):
+        # 返回提取到的滑块标签
+        pass
 
-    def get_pic(self):
-        bg_image_tag = self.wait.until(EC.presence_of_element_located((By.ID, 'validate-big')))
-        bg_block_tag = self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'validate-block')))
-
+    def picture_analysis(self):
+        bg_image_tag, bg_block_tag = self.get_picture_tag()
+        if not (bg_image_tag and bg_block_tag):
+            raise RuntimeError('程序运行失败，请检查加载的页面中是否存在提取的标签')
         bg_image_link = bg_image_tag.get_attribute('src')
         bg_block_link = bg_block_tag.get_attribute('src')
 
@@ -60,7 +69,7 @@ class CrackSlider():
         self.bg_image_size = bg_image_obj.size
         self.bg_block_size = bg_block_obj.size
 
-        self.zoom = 268 / int(self.bg_image_size[0])
+        self.zoom = self.verify_image_width / int(self.bg_image_size[0])
 
     def set_over_length(self, distance):
         over_length = 15
@@ -82,7 +91,8 @@ class CrackSlider():
         back_tracks.append(int(res))
         return distance, back_tracks
 
-    def get_tracks(self, distance):
+    def get_slider_tracks(self, distance):
+        print(distance)
         v = 0  # 速度
         t = 0.2  # 时间
         forward_tracks = []
@@ -100,7 +110,7 @@ class CrackSlider():
             forward_tracks.append(round(s))
         return {'forward_tracks': forward_tracks, 'back_tracks': back_tracks}
 
-    def match(self):
+    def calculate_offset_x(self):
         img_rgb = cv2.imread(self.bg_image)
         img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
         bg_block = cv2.imread(self.bg_block, 0)
@@ -128,9 +138,11 @@ class CrackSlider():
                 R -= (R - L) / 2
         return x_position[1][0]
 
-    def crack_slider(self, tracks):
-        slider = self.wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'drag-button')))
-        ActionChains(self.driver).click_and_hold(slider).perform()
+    def simulate_sliding(self, tracks):
+        slider_button = self.get_slider_button()
+        if not slider_button:
+            raise RuntimeError('程序运行失败，请检查加载的页面中是否存在提取的标签')
+        ActionChains(self.driver).click_and_hold(slider_button).perform()
 
         for track in tracks['forward_tracks']:
             ActionChains(self.driver).move_by_offset(xoffset=track, yoffset=0).perform()
@@ -138,23 +150,13 @@ class CrackSlider():
         time.sleep(0.2)
         for back_tracks in tracks['back_tracks']:
             ActionChains(self.driver).move_by_offset(xoffset=back_tracks, yoffset=0).perform()
-
-        # ActionChains(self.driver).move_by_offset(xoffset=-4, yoffset=0).perform()
-        # ActionChains(self.driver).move_by_offset(xoffset=4, yoffset=0).perform()
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         ActionChains(self.driver).release().perform()
 
-    def main(self):
-        self.open()
-        self.load_login_page()
-        self.insert_data()
-        cs.get_pic()
-        distance = cs.match()
-        tracks = cs.get_tracks((distance + 3) * cs.zoom)  # 对位移的缩放计算
-        cs.crack_slider(tracks)
-
-
-if __name__ == '__main__':
-    cs = CrackSlider()
-    cs.main()
+    def verify_action(self):
+        self.picture_analysis()
+        distance = self.calculate_offset_x()
+        distance = (distance + 3) * self.zoom  # 对位移的缩放计算
+        tracks = self.get_slider_tracks(distance)
+        self.simulate_sliding(tracks)
