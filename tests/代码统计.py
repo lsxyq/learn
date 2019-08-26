@@ -28,7 +28,7 @@ class CodeCount(object):
 
     def check_ignore(self, path):
         if str(path).endswith(self.ignore):
-            print(path)
+            # print(path)
             return
         for path in Path(path).iterdir():
             self.recursion_folder(path)
@@ -62,5 +62,4 @@ class CodeCount(object):
 
 
 c = CodeCount()
-# c.start(r'C:\Projects\coursepoint')
-c.start(r'C:\Projects\learn\douyin')
+c.start(r'C:\Projects\coursepoint')
