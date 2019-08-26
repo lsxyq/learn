@@ -54,10 +54,8 @@ class Index(object):
 
 
 index = Index()
-
-start = 371
-for i in range(start + 1):
-    print(index(i, start), end='')
-    time.sleep(0.01)
-    # \r 返回本行开头
-    # end : python 结尾不加任何操作, 默认是空格
+if __name__ == '__main__':
+    start = 371
+    for i in range(start + 1):
+        print(index(i, start), end='')
+        time.sleep(0.01)
