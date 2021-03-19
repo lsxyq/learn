@@ -32,7 +32,7 @@ django-crontab==0.7.1
 django-rest-swagger==2.2.0
 django-schemas==0.2.0
 django-simpleui==2.1.1
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 djangorestframework-stubs==0.2.0
 docx==0.2.4
 elasticsearch==7.0.4
