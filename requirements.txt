@@ -103,7 +103,7 @@ python-dotenv==0.10.1
 python-pptx==0.6.17
 PythonMagick==0.9.19
 pytz==2018.7
-pywin32==224
+pywin32==301
 pywin32-ctypes==0.2.0
 PyYAML==5.1
 query-string==2018.11.20
