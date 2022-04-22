@@ -89,7 +89,7 @@ pyjsparser==2.7.1
 pymediainfo==3.0
 PyMySQL==0.9.3
 pyOpenSSL==19.0.0
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pypiwin32==223
 pypng==0.0.19
 PyQRCode==1.2.1
